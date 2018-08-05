@@ -1,0 +1,29 @@
+{
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.useSystemClipboard": true, 
+    "vim.useCtrlKeys": true,
+    "vim.insertModeKeyBindings": [
+        {
+        "before": ["j", "k"],
+        "after": ["<esc>"]
+        }
+    ],
+    "vim.handleKeys":{
+        "<C-d>": false,
+        "<C-n>": false, 
+        "<C-y>": false, 
+        "<C-b>": false, 
+    },
+    "editor.minimap.enabled": false, 
+    "editor.tabSize": 2, 
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "workbench.sideBar.location": "left",
+    "workbench.statusBar.visible": true,
+    "workbench.colorTheme": "Solarized Dark",
+    "window.zoomLevel": 0,
+    "files.associations": {
+        "*.js": "javascriptreact"
+    }
+}
